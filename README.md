@@ -1,9 +1,11 @@
 # PaycheckCalculator
 <br>
-##Requires jq:<br>
- https://stedolan.github.io/jq/
-`brew install jq`
 
-##Usage<br>
-`sh Paycheck.sh <Annual Salary> <Optional:ZipCode>`
+## Requires jq:
+<br>
+https://stedolan.github.io/jq/<br>
+Use Homebrew to install jq with `brew install jq`
+
+## Usage<br>
+`sh Paycheck.sh <Annual Salary> <Optional:ZipCode>`<br><br>
 If no zip code is provided, the script will default to one in midtown NYC
