@@ -12,3 +12,4 @@ curl_command="curl --silent -d 'ud-current-location=ZIP|${zip}&ud-pay-fq=8&ud-it
 
 echo "Your estimated annual take home pay after earning \$$1 in zip code $zip is... "
 income=$(eval $curl_command | jq '.page_data.annualizedPaycheck' )
+echo "($income+0.5)/1" | bc
